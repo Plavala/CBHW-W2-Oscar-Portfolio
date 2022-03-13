@@ -14,6 +14,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial, sans-serif';
     background-color: #401a86;
     color: #ffffff;
+    position:fixed;
+    width: 100%;
 }
 
 .header h1 {
@@ -50,9 +52,10 @@ a {
 p {
     font-size: 16px;
 }
+
 /*site center img*/
 .hero img {
-    height: 300px;
+    height: 400px;
     width: 100%;
     margin-bottom: 25px;
     object-fit: cover;
@@ -62,8 +65,7 @@ p {
 .link-content {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    min-height: 300px;
     background-color: #501ead;
     color: #ffffff;
 }
@@ -86,14 +88,32 @@ p {
     margin-left: 25px;
 }
 
+.information-container {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 .content {
+    margin-left: 20px;
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+@media (max-width: 1220px) {
+    .benefits {
+        width: 100% !important;
+        float: none;
+    }
+
+    .content {
+        width: 100% !important;
+    }
 }
 /*Left side content*/
 .benefits {
     margin-right: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     clear: both;
     float: left;
@@ -103,6 +123,7 @@ p {
     background-color: #2589bd;
 }
 .benefit {
+    padding-left: 20px;
     margin-bottom: 32px;
     color: #ffffff;
 }
