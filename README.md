@@ -6,8 +6,7 @@ For our 2nd week homework we were asked to create a web application. We were tas
 
 *Here is an example of what that page looks like.*
 
-![*This page includes a navigation bar, a header image, and info box's such as about me and past examples*](./Assets\Images\Screenshot 2022-03-15 150148.png)
-"can not get the image to load, will come back to fix that soon"
+![*This page includes a navigation bar, a header image, and info box's such as about me and past examples*](./Assets/Images/example.png)
 
 In this homework I took inspiration from my last homework "CodeRefactor '' and built on top of that to create my Portfolio. I integrated all necessary changes and added all requested information. changed up the back layout and margins so it can be visible and adjusted through various types of screens. The page contains a section about me, how to contact me, previous home work examples and a link to my github for more of my work. all links on site work and all info is up to date. I will continue to update the page as my progress continues.
 
@@ -50,6 +49,6 @@ If running into probloms plese contact Me "Oscar Salagdo" and i will get back to
 Contributions and help was provided from the following:
 - Instructor: Trey Eckels
 - Classmate: Molly Gove
-- Roomate: Braondon Van Le
+- Roomate: Brandon Van Le
 - The last homework "code refactor" 
 - the last homework "code refactor" a 2nd time for the fact it was my base.
